@@ -1,0 +1,27 @@
+# System directories
+proc/
+tmp/
+run/
+dev/
+sys/
+var/
+
+# Docker environment file
+.dockerenv
+
+# Potentially unwanted files (can be added based on your specific use case)
+*.swp
+*.bak
+*.log
+
+# Other specific directories or files you may want to ignore
+bin/
+etc/
+lib/
+lib32/
+lib64/
+libx32/
+opt/
+sbin/
+usr/
+root/
