@@ -1,9 +1,7 @@
-#!/usr/bin/env bash
-# SSH client configuration
-# configured to use the private key ~/.ssh/school
-Include /etc/ssh/ssh_config.d/*.conf
-Host *
-    SendEnv LANG LC_*
-    HashKnownHosts yes
-    GSSAPIAuthentication yes
-    IdentityFile ~/.ssh/school
+# SSH Config File
+#
+Host web-01
+	Hostname 54.172.238.100
+	User ubuntu
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
